@@ -2,7 +2,7 @@
   Transform a MM-DD-YYY formated date on a "day Nº of month of year" string.
 */
 
-var date = 12-06-2013
+var date = '12-06-2013'
 var options = {timezone:"UTC", weekday: "long", year: "numeric", month: "long", day: "numeric"}
 
 date = date.replace(/-/g, ",")
